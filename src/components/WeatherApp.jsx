@@ -92,7 +92,7 @@ const WeatherApp = () => {
               ref={inputRef}
               className='text-xl border-b p-1 border-gray-200 font-semibold uppercase text-black placeholder-black'/>
             <button onClick={fetchWeather}>
-            <FaSearch className='w-14 text-2xl' />
+            <FaSearch className='w-14 text-2xl hover:text-orange-600' />
             </button>
             </div>
             <div className={`duration-300 delay-75 overflow-hidden ${showWeather ? 'h-[27rem]' : 'h-0'}`} >
